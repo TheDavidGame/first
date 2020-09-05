@@ -34,7 +34,10 @@ public class First_class {
                 System.out.print(array_2[i] + " ");
             }
             System.out.println("//////////");
-            /////////Task 3/////
+            /////////Task 3////////
+
+            
+            System.out.println("//////////");
         }
 
 }
