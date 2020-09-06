@@ -47,6 +47,11 @@ public class First_class {
         Sort(array_2);
         System.out.println("//////////");
         /////////Task 5////////
+        System.out.println("input factorial");
+
+        int fact = scan.nextInt();
+        System.out.println("factorial: " + Fact(fact));
+
     }
 
     public static int returnRandInt(int scale) {
@@ -80,5 +85,13 @@ public class First_class {
         }
         output(array);
     }
+    public static int Fact(int n){
+        int cons = 1;
+            for(int i = 1;i <= n;i++){
+                cons = cons * i;
+            }
+        return cons;
+    }
+
 }
 
